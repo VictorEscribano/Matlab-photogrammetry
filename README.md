@@ -14,8 +14,7 @@ This project focuses on 3D scene reconstruction by means of clasis photogrametry
 
 ## Documentation
 Documentation of this project can be found on:
-* [Project_resume.pdf] 
-(https://github.com/VictorEscribano/Computer-Vision-Project/blob/main/Introduction_report/CV_Short_Project_Resume_Victor_Escribano_Oriol_Contreras.pdf)
+* [Project_resume.pdf] (https://github.com/VictorEscribano/Computer-Vision-Project/blob/main/Introduction_report/CV_Short_Project_Resume_Victor_Escribano_Oriol_Contreras.pdf)
 
 ## References
 * [Monocular_odometry] 
