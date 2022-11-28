@@ -11,7 +11,7 @@
 This project focuses on 3D scene reconstruction by means of clasis photogrametry principles using MATLAB. To generate the poincloud 2 aproaches will be done:
 * With the help of visual odometry the camera pose and orientation will be computed in every step to reconstruct the scene from diferent vews and reconstruct a general poincloud.
 * Generating separated poinclouds without odometry and fusing them with the Iterative Closest Point (ICP) algorithm.
-![alt text](https://github.com/VictorEscribano/Computer-Vision-Project/blob/main/Introduction_report/Report%20images/camera_support.jpeg)
+![alt text](https://github.com/VictorEscribano/Computer-Vision-Project/blob/main/Introduction_report/Report%20images/camera_support.jpeg | width=100)
 
 ## Documentation
 Documentation of this project can be found on:
