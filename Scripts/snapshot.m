@@ -3,7 +3,7 @@ close all;
 clc;
 
 webcamlist
-left=webcam();
+left=webcam(2);
 right=webcam(3);
 
 img=snapshot(left);
@@ -25,7 +25,7 @@ while out==1
     disp('Images saved! There are '+ string(num)+' images saved')
     preview(left);
     preview(right);
-    prompt= 'Take photo?(y/n)';
+    prompt= 'Take photo?(1/0)';
     out=input(prompt);
     num = num + 1;
 end
