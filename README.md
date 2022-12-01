@@ -1,16 +1,17 @@
 # 3D Reconstruction from stereo images
 
 ## Requirements
-* Matlab
 * Computer vision toolbox
 * Webcam toolbox
-* 2 Webcams
-* Calibration checkboard
 
 ## Introduction
-This project focuses on 3D scene reconstruction by means of clasis photogrametry principles using MATLAB. To generate the poincloud 2 aproaches will be done:
-* With the help of visual odometry the camera pose and orientation will be computed in every step to reconstruct the scene from diferent vews and reconstruct a general poincloud.
-* Generating separated poinclouds without odometry and fusing them with the Iterative Closest Point (ICP) algorithm.
+This project focuses on 3D scene reconstruction by means of clasis photogrametry principles using MATLAB. To generate the poincloud the following steps will be done:
+* Stereo camera calibration to know th intrinsic parameters of both cameras and the position of the right camera relative to the left (main) camera.
+* Obtain set if images of the environment to recostruct.
+* Use Structure from Motion (Visual odometry) to estimate the actual position of the left camera respect to the previous frame, and with the extrinsic parameters estimate also the right camera position relative to the new left camera transformation.
+* Extract a 3D poincloud by means of triangulation for every camera pose.
+* Fusion those pointclouds with different orientations using Iterative Closest Point (ICP) algorithm.
+* (Extra) Extract 3D known shapes from the computed poincloud (spheres, cones, etc.)
 
 ![alt text](https://github.com/VictorEscribano/Computer-Vision-Project/blob/main/Introduction_report/Report%20images/camera_support.jpeg)
 
