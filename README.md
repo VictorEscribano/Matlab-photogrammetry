@@ -20,6 +20,7 @@ Documentation of this project can be found on:
 * [Project_resume.pdf](https://github.com/VictorEscribano/Computer-Vision-Project/blob/main/Introduction_report/CV_Short_Project_Resume_Victor_Escribano_Oriol_Contreras.pdf)
 
 ## References
-* [Monocular_odometry](https://es.mathworks.com/help/vision/ug/monocular-visual-odometry.html)
-* [3D_Point_Cloud_Registration](https://es.mathworks.com/help/vision/ug/3-d-point-cloud-registration-and-stitching.html)
+* [Monocular odometry](https://es.mathworks.com/help/vision/ug/monocular-visual-odometry.html)
+* [3D PointCloud Registration](https://es.mathworks.com/help/vision/ug/3-d-point-cloud-registration-and-stitching.html)
 * [estgeotform3d](https://es.mathworks.com/help/vision/ref/estgeotform3d.html)
+* [Structure from motion](https://es.mathworks.com/help/vision/ug/structure-from-motion-from-multiple-views.html)
