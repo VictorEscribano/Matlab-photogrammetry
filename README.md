@@ -13,8 +13,7 @@ This project focuses on 3D scene reconstruction by means of clasis photogrametry
 * Fusion those pointclouds with different orientations using Iterative Closest Point (ICP) algorithm.
 * (Extra) Extract 3D known shapes from the computed poincloud (spheres, cones, etc.)
 
-![test image size]<img src="https://github.com/VictorEscribano/Computer-Vision-Project/blob/main/resources/Introduction_report/Report%20images/camera_support.jpeg" width="400" height="790">
-![](https://github.com/VictorEscribano/Computer-Vision-Project/blob/main/resources/Introduction_report/Report%20images/camera_support.jpeg)
+![test image size]<img src="https://github.com/VictorEscribano/Computer-Vision-Project/blob/main/resources/Introduction_report/Report%20images/camera_support.jpeg" width="360" height="240">
 
 ## Documentation
 Documentation of this project can be found on:
