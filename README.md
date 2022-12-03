@@ -17,7 +17,7 @@ This project focuses on 3D scene reconstruction by means of clasis photogrametry
 </p>
 * Obtain a set of consecutive images of the environment to recostruct.
 <p align="center">
-  <img src="https://github.com/VictorEscribano/Computer-Vision-Project/blob/main/resources/camera%20position%20images.png" width="480">
+  <img src="https://github.com/VictorEscribano/Computer-Vision-Project/blob/main/resources/camera%20position%20images.png" width="720">
 </p>
 * Use Structure from Motion (Visual odometry) to estimate the actual position of the left camera with respect to the previous frame, and with the extrinsic parameters estimate also the right camera position relative to the new left camera transformation.
 <p align="center">
