@@ -12,6 +12,9 @@ This project focuses on 3D scene reconstruction by means of clasis photogrametry
   <img src="https://github.com/VictorEscribano/Computer-Vision-Project/blob/main/resources/Introduction_report/Report%20images/camera_support.jpeg" width="240">
 </p>
 * Stereo camera calibration to extract the intrinsic parameters of both sensors and the position of the right camera relative to the left (main) one.
+<p align="center">
+  
+</p>
 * Obtain a set of consecutive images of the environment to recostruct.
 <p align="center">
   <img src="https://github.com/VictorEscribano/Computer-Vision-Project/blob/main/resources/camera%20position%20images.png" width="480">
@@ -21,7 +24,13 @@ This project focuses on 3D scene reconstruction by means of clasis photogrametry
   <img src="https://github.com/VictorEscribano/Computer-Vision-Project/blob/main/resources/camera%20position.PNG" width="240">
 </p>
 * Extract a 3D poincloud by means of triangulation for every camera pose.
+<p align="center">
+  
+</p>
 * Fusion those pointclouds with different orientations using Iterative Closest Point (ICP) algorithm.
+<p align="center">
+  
+</p>
 * (Extra) Extract 3D known shapes from the computed poincloud (spheres, cones, etc.)
 
 
