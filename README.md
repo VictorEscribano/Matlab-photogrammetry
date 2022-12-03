@@ -6,14 +6,34 @@
 
 ## Introduction
 This project focuses on 3D scene reconstruction by means of clasis photogrametry principles using MATLAB. To generate the poincloud the following steps will be done:
+
+* Design a support for the stereo cameras to ensure the same external parameters in all images.
+<p align="center">
+  <img src="https://github.com/VictorEscribano/Computer-Vision-Project/blob/main/resources/Introduction_report/Report%20images/camera_support.jpeg" width="240">
+</p>
 * Stereo camera calibration to extract the intrinsic parameters of both sensors and the position of the right camera relative to the left (main) one.
+<p align="center">
+  
+</p>
 * Obtain a set of consecutive images of the environment to recostruct.
+<p align="center">
+  <img src="https://github.com/VictorEscribano/Computer-Vision-Project/blob/main/resources/camera%20position%20images.png" width="480">
+</p>
 * Use Structure from Motion (Visual odometry) to estimate the actual position of the left camera with respect to the previous frame, and with the extrinsic parameters estimate also the right camera position relative to the new left camera transformation.
+<p align="center">
+  <img src="https://github.com/VictorEscribano/Computer-Vision-Project/blob/main/resources/camera%20position.PNG" width="240">
+</p>
 * Extract a 3D poincloud by means of triangulation for every camera pose.
+<p align="center">
+  
+</p>
 * Fusion those pointclouds with different orientations using Iterative Closest Point (ICP) algorithm.
+<p align="center">
+  
+</p>
 * (Extra) Extract 3D known shapes from the computed poincloud (spheres, cones, etc.)
 
-![alt text](https://github.com/VictorEscribano/Computer-Vision-Project/blob/main/Introduction_report/Report%20images/camera_support.jpeg)
+
 
 ## Documentation
 Documentation of this project can be found on:
