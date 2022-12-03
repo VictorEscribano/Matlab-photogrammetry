@@ -4,7 +4,7 @@ clc;
 
 webcamlist
 left=webcam();
-right=webcam(3);
+right=webcam(2);
 
 img=snapshot(left);
 img2=snapshot(right);
@@ -17,15 +17,15 @@ num = 1;
 while out==1
     left_im = snapshot(left);
     right_im = snapshot(right);
-    left_name = 'images/left_' + string(num)+'.png';
-    right_name = 'images/right_' + string(num)+'.png';
+    left_name = 'Images/Left/left_' + string(num)+'.png';
+    right_name = 'Images/Right/right_' + string(num)+'.png';
     disp('Saving images...')
     imwrite(left_im, left_name);
     imwrite(right_im, right_name);
     disp('Images saved! There are '+ string(num)+' images saved')
     preview(left);
     preview(right);
-    prompt= 'Take photo?(y/n)';
+    prompt= 'Take photo?(1/0)';
     out=input(prompt);
     num = num + 1;
 end
