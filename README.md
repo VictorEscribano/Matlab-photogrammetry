@@ -33,7 +33,10 @@ This project focuses on 3D scene reconstruction by means of clasis photogrametry
 </p>
 * (Extra) Extract 3D known shapes from the computed poincloud (spheres, cones, etc.)
 
+## Main issues
+* When obtaining the stereo pair images at freehand some error due to hand tremoring can be induced, affecting the computation of the disparity map. As we know when displaying the red-cyan anaglyph from the stereo pair images, the colser objects have bigger disparity and the ones that are futher away have less disparity between pixels. This and tremor affcts more to the objects that are colser to the cameras on the scene.
 
+To solve this a base for the cameras have been designed in order toavoid this hand tremoring. Better solutions can be implemented such as synchronize the shutter of the cameras, some cameras can accept software triggering or some PWM hardware triggering to capture the images with the same timestamp, in this report this approach will not be used.
 
 ## Documentation
 Documentation of this project can be found on:
