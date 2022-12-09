@@ -3,8 +3,8 @@ close all;
 clc;
 
 webcamlist
-left=webcam(2);
-right=webcam();
+left=webcam();
+right=webcam(2);
 
 img=snapshot(left);
 img2=snapshot(right);
