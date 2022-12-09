@@ -13,7 +13,7 @@ preview(left);
 preview(right);
 prompt= 'Take photo?(1/0)';
 out=input(prompt);
-num = 3;
+num = 10;
 while out==1
     left_im = snapshot(left);
     right_im = snapshot(right);
