@@ -38,6 +38,10 @@ This project focuses on 3D scene reconstruction by means of clasis photogrametry
 
 To solve this a base for the cameras have been designed in order toavoid this hand tremoring. Better solutions can be implemented such as synchronize the shutter of the cameras, some cameras can accept software triggering or some PWM hardware triggering to capture the images with the same timestamp, in this report this approach will not be used.
 
+* Photogrametry algorithms like this one does not hanle reflections, this is because the features of one image does not correspond with the ones on the other one, causing problems on reconstructing reflecting surfaces.
+
+To solve this I personally recomend the use of more complex tools like NeRF (Neural Radial Fields), this neural networks can make very dense and light responive reconstructions.
+
 ## Documentation
 Documentation of this project can be found on:
 * [Project_resume.pdf](https://github.com/VictorEscribano/Computer-Vision-Project/blob/main/Introduction_report/CV_Short_Project_Resume_Victor_Escribano_Oriol_Contreras.pdf)
