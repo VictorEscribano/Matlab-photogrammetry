@@ -3,6 +3,7 @@
 ## Requirements
 * Computer vision toolbox
 * Webcam toolbox
+* Matlab 2022b (recomended)
 
 ## Introduction
 This project focuses on 3D scene reconstruction by means of clasis photogrametry principles using MATLAB. To generate the poincloud the following steps will be done:
