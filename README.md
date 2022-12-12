@@ -9,7 +9,7 @@ This project focuses on 3D scene reconstruction by means of clasis photogrametry
 
 * Design a support for the stereo cameras to ensure the same external parameters in all images.
 <p align="center">
-  <img src="https://github.com/VictorEscribano/Computer-Vision-Project/blob/main/resources/Introduction_report/Report%20images/camera_support.jpeg" width="240">
+  <img src="https://github.com/VictorEscribano/Computer-Vision-Project/blob/main/resources/Support/Camera%20support.jpeg" width="240">
 </p>
 * Stereo camera calibration to extract the intrinsic parameters of both sensors and the position of the right camera relative to the left (main) one.
 <p align="center">
