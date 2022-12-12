@@ -13,7 +13,7 @@ This project focuses on 3D scene reconstruction by means of clasis photogrametry
 </p>
 * Stereo camera calibration to extract the intrinsic parameters of both sensors and the position of the right camera relative to the left (main) one.
 <p align="center">
-  
+  <img src="https://github.com/VictorEscribano/Computer-Vision-Project/blob/main/resources/habitacion_reconstruction/Extrinsic_params.png" width="240">
 </p>
 * Obtain a set of consecutive images of the environment to recostruct.
 <p align="center">
