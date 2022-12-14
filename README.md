@@ -46,6 +46,7 @@ To solve this I personally recomend the use of more complex tools like NeRF (Neu
 ## Documentation
 Documentation of this project can be found on:
 * [Project_resume.pdf](https://github.com/VictorEscribano/Computer-Vision-Project/blob/main/Introduction_report/CV_Short_Project_Resume_Victor_Escribano_Oriol_Contreras.pdf)
+* [Final_Project.pdf](https://github.com/VictorEscribano/Matlab-photogrametry/blob/main/CV_Short_Project_Victor_Escribano_Oriol_Contreras.pdf)
 
 ## References
 * [Monocular odometry](https://es.mathworks.com/help/vision/ug/monocular-visual-odometry.html)
