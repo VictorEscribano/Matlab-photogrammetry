@@ -24,7 +24,7 @@ This project focuses on 3D scene reconstruction by means of clasis photogrametry
 <p align="center">
   <img src="https://github.com/VictorEscribano/Computer-Vision-Project/blob/main/resources/habitacion_reconstruction/camera_poses.png" width="480">
 </p>
-* Extract a 3D poincloud by means of triangulation for every camera pose.
+* Extract a 3D poincloud by means of disparity map or feature triangulation for every camera pose.
 <p align="center">
   
 </p>
