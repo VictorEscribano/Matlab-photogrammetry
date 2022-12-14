@@ -28,7 +28,7 @@ This project focuses on 3D scene reconstruction by means of clasis photogrametry
 <p align="center">
   
 </p>
-* Fusion those pointclouds with different orientations using Iterative Closest Point (ICP) algorithm.
+* Fusion those pointclouds with different orientations to make a sigle output with all the camera views.
 <p align="center">
   <img src="https://github.com/VictorEscribano/Computer-Vision-Project/blob/main/resources/habitacion_reconstruction/multiview_reconstruction.png" width="480">
 </p>
